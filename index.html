@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hi Beybe ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<audio id="music" loop>
+<source src="music.mp3" type="audio/mp3">
+</audio>
+
+<audio id="popSound">
+<source src="pop.mp3" type="audio/mp3">
+</audio>
+
+
+<!-- INTRO -->
+
+<section id="intro" class="page active">
+
+<h1 id="typing"></h1>
+<h2 id="subtext"></h2>
+
+<button id="startBtn" onclick="startSurprise()">Nhấn vào đây nè 💜</button>
+
+</section>
+
+
+
+<!-- QUEEN PAGE -->
+
+<section id="page2" class="page">
+
+<img src="images/queen.jpg" class="queen-img">
+
+<h1>Thiên thần của anh 👑</h1>
+
+<p class="romantic">
+
+<h2>Happy Women's Day Beybe ❤️  </br></h2> 
+Giữa hàng triệu người trên thế giới này, </br>
+trái tim anh bằng cách nào đó vẫn tìm thấy em. </br>
+
+Nụ cười của em thắp sáng cả những ngày u tối nhất của anh. </br>
+Giọng nói của em khiến anh cảm thấy bình yên giữa những bộn bề của của cuộc sống này
+</p>
+
+<button onclick="startMagic()">Pink Magic ✨</button>
+
+</section>
+
+
+
+<!-- BALLOON PAGE -->
+
+<section id="page3" class="page">
+
+<h2>Nhấn vào bóng bay nè 🎈</h2>
+
+<div class="balloons">
+
+<img src="images/balloon.png" class="balloon" onclick="popBalloon(this,'images/pic1.png')">
+<img src="images/balloon.png" class="balloon" onclick="popBalloon(this,'images/pic2.jpg')">
+<img src="images/balloon.png" class="balloon" onclick="popBalloon(this,'images/pic3.jpg')">
+<img src="images/balloon.png" class="balloon" onclick="popBalloon(this,'images/pic4.jpg')">
+
+</div>
+
+<div id="photoDisplay"></div>
+
+
+<div id="letter">
+
+<h1>8-3 vui vẻ nha Beybe ❤️</h1>
+
+<p>
+
+Em là người truyền cảm hứng để anh trở thành một người tốt hơn mỗi ngày.
+
+Sự dịu dàng, đáng yêu đó luôn mang cho anh sự ấm áp trong trái tim này.
+Cuộc sống của anh vốn chỉ là một màu Xám,
+và nó chỉ trở nên rực rỡ hơn khi có em xuất hiện
+</br>
+Dù được chọn lại bao nhiêu lần đi chăng nữa,
+anh vẫn sẽ chọn em — mãi luôn là em
+
+<h2>Tình yêu của anh ạ 💖</h2>
+</p>
+
+</div>
+
+
+
+<div id="questionBox">
+
+<h2>Beybe…</h2>
+
+<p>Em có muốn ở lại trong cuộc đời anh mãi mãi không? 💖</p>
+
+<div class="buttons">
+
+<button class="yesBtn" onclick="showEnding()">Có 🩷</button>
+<button class="yesBtn" onclick="showEnding()">Vẫn là Kó 😌</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- FINAL PAGE -->
+
+<section id="endingPage" class="page">
+
+<h1 class="endingText">
+Cảm ơn em vì đã xuất hiện trong cuộc đời anh
+</h1>
+<h1> Anh yêu Em 💗</h1>
+
+<div id="loveRain"></div>
+
+<button class="backBtn" onclick="goBack()">Xem lại 🔁</button>
+
+</section>
+
+
+
+<div id="hearts"></div>
+<div id="sparkles"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
