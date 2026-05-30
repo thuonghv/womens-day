@@ -5,7 +5,7 @@ scroll-behavior:smooth;
 body{
 margin:0;
 font-family:Arial;
-background:linear-gradient(-45deg,#ffd6e0,#fff4f7,#ffe1ec,#fff);
+background:linear-gradient(-45deg,#feadc1,#fccdda,#fbe7ef,#fff);
 background-size:400% 400%;
 animation:bgMove 12s ease infinite;
 text-align:center;
